@@ -1,0 +1,18 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.status-bar__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
+
+.status-bar__column:last-child .fa-wifi {
+  margin: 0 5px;
+}
