@@ -33,9 +33,14 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email или номер телефона" />
-      <input type="password" placeholder="Пароль" />
+    <form action="friends.html" method="GET" id="login-form">
+      <input
+        name="username"
+        type="text"
+        placeholder="Email или номер телефона"
+        required
+      />
+      <input name="password" type="password" placeholder="Пароль" />
       <button type="submit">Войти</button>
       <button type="submit">Регистрация</button>
       <a href="#">Найти аккаунт или восстановить пароль</a>
