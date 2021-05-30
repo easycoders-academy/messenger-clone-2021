@@ -5,6 +5,7 @@
 
 /* Компоненты */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Экраны */
 @import "screens/login.css";
