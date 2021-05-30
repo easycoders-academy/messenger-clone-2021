@@ -1,7 +1,22 @@
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
+}
+
+.user-component__column:last-child {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column:last-child span {
+  margin-right: 5px;
 }
 
 .user-component__avatar {
@@ -24,4 +39,13 @@
 .user-component__avatar--xl {
   width: 60px;
   height: 60px;
+}
+
+.user-component__avatar--sm {
+  width: 40px;
+  height: 40px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
 }
