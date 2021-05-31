@@ -13,6 +13,7 @@
 /* Экраны */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   height: 1000vh;
