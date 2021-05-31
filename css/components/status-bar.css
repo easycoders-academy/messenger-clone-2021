@@ -1,7 +1,7 @@
 .status-bar {
   display: flex;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 12px 15px;
 }
 
 .status-bar__column {

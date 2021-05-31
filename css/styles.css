@@ -17,3 +17,7 @@ body {
   height: 1000vh;
   font-family: "Open Sans", sans-serif;
 }
+
+.main-screen {
+  padding: 0 var(--horizontal-space);
+}
