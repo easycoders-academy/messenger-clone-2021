@@ -51,6 +51,8 @@
 
 .open-post {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .open-post__title {
@@ -93,4 +95,35 @@
   height: 12px;
   background-color: rgba(0, 0, 0, 0.4);
   margin: 0 5px;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.open-post__likes-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.open-post__likes-count i,
+.open-post__likes-count span {
+  font-size: 10px;
+}
+
+.open-post__likes-count span {
+  margin-left: 4px;
 }
