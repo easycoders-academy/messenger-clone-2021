@@ -1,0 +1,21 @@
+.more-screen .icon-row {
+  margin-top: 30px;
+}
+
+.more-screen .icon-row__icon i {
+  font-size: 25px;
+}
+
+.more-screen .icon-row__icon span {
+  margin-top: 10px;
+}
+
+.more-suggestions {
+  border-top: var(--main-border);
+}
+
+.more-suggestions__title {
+  padding: 20px 0;
+  font-size: 12px;
+  font-weight: 600;
+}
