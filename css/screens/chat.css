@@ -10,9 +10,26 @@
 
 .main-chat {
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #chat-screen .alt-screen-header,
 #chat-screen .status-bar {
   background-color: #a9c1d0;
+}
+
+.chat__timestamp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat__timestamp span {
+  background-color: #91a4b0;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  padding: 6px 12px;
 }
