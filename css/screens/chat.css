@@ -24,6 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .chat__timestamp span {
@@ -32,4 +33,40 @@
   color: rgba(255, 255, 255, 0.7);
   font-size: 12px;
   padding: 6px 12px;
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+}
+
+.message-row img {
+  width: 35px;
+  height: 35px;
+  border-radius: 36%;
+  margin-right: 10px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__author {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.message__text {
+  background-color: white;
+  font-size: 14px;
+  padding: 12px;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+.message__time,
+.message__author {
+  font-size: 12px;
+  opacity: 0.5;
 }
